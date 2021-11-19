@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSF1Homework.FruitLoops1</StartupObject>
+    <StartupObject>CSF1Homework.FuitLoops2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FruitLoops1.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="FuitLoops2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
