@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSF1Homework.MadLib</StartupObject>
+    <StartupObject>CSF1Homework.TempConverter</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="FuitLoops2.cs" />
     <Compile Include="MadLib.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TempConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
