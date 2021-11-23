@@ -28,9 +28,9 @@ namespace CSF1Homework
             Console.Write("Please enter a temperature in Fahrenheit to convert to Celsius: ");
             double userFahrenheit = double.Parse(Console.ReadLine());
             //double compCelsius = (userFahrenheit - 32) * 5 / 9;  //should be 100 - works (found formula on Google)
-            //double compCelsius = (userFahrenheit - 32) / 5 / 9;  //should be 100 but doesn't work
+            //double compCelsius = (userFahrenheit - 32) / 9 / 5;  //should be 100 but doesn't work
             Console.WriteLine("The requested temperature (" + userFahrenheit + "\u00B0 F) converts to " + (userFahrenheit - 32) * 5 / 9 + "\u00B0 C.\n");
-            //Console.WriteLine(userFahrenheit + "\u00B0 F converts to " + ((userFahrenheit - 32) / 5 / 9) + "\u00B0 C.");
+            //Console.WriteLine(userFahrenheit + "\u00B0 F converts to " + ((userFahrenheit - 32) / 9 / 5) + "\u00B0 C.");
 
         // 3) Add menu that allows user to choose which to convert and show result
         // 4) Ask user if they want to convert another temp after showing the result of the current one
@@ -90,6 +90,8 @@ F) Fahrenheit"
                             keepGoing = false;
                         }// end else
                         break;
+
+                    
 
                     default:
                         Console.WriteLine();

@@ -93,7 +93,7 @@ namespace CSF1Homework
                      //invalid user name has been entered
                      //should not hit below code if checkUser is false (good user name)
                      //needs to be outside of the for loop
-                    if (userAttempts < maxAllowed & checkUser)
+                    if (userAttempts < maxAllowed)
                     {
                         Console.WriteLine("Sorry...Invalid user name - please try again!");
                         Console.WriteLine("You have {0} attempt{1} left ", maxAllowed - userAttempts, maxAllowed - userAttempts == 1 ? "" : "s");
