@@ -51,7 +51,6 @@
     <Compile Include="FruitLoops1.cs" />
     <Compile Include="FuitLoops2.cs" />
     <Compile Include="ATM.cs" />
-    <Compile Include="LoginCopy.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="MadLib.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
